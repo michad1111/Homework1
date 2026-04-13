@@ -10,7 +10,7 @@ def yearly_pv_generation(capacity_kw: float, specific_yield: float) -> float:
     specific_yield typical values:
     900–1200 kWh per kW installed capacity per year.
     """
-    return capacity_kw * specific_yield
+    return capacity_kw * specific_yield - 100
 
 
 def self_consumption(generation_kwh: float, self_consumption_rate: float) -> float:
