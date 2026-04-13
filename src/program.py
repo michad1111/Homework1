@@ -17,7 +17,7 @@ def self_consumption(generation_kwh: float, self_consumption_rate: float) -> flo
     """
     Calculate how much PV electricity is used directly.
     """
-    return generation_kwh * self_consumption_rate
+        return generation_kwh * self_consumption_rate
 
 
 def savings(self_used_kwh: float, electricity_price: float) -> float:
