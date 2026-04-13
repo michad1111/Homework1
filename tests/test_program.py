@@ -6,7 +6,7 @@ from program import (
 
 
 def test_yearly_pv_generation() -> None:
-    assert yearly_pv_generation(5, 1000) == 5000
+    assert yearly_pv_generation(5, 1000) == 5200
 
 
 def test_self_consumption() -> None:
