@@ -24,4 +24,4 @@ def savings(self_used_kwh: float, electricity_price: float) -> float:
     """
     Estimate yearly savings in €.
     """
-        return self_used_kwh * electricity_price
+    return self_used_kwh*electricity_price
